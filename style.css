@@ -3,45 +3,16 @@
   justify-content: center;
   margin-top: 300px;
 }
-
-.trafikljus {
-  display: flexbox;
+.trafikljus1 {
   flex-direction: column;
   background-color: black;
 }
-
-.red {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-  margin: 10px 10px;
-  border: solid 10px darkred;
-}
-
-.yellow {
-  height: 200px;
-  width: 200px;
-  background-color: yellow;
-  margin: 0px 10px;
-  border: solid 10px darkgoldenrod;
-}
-
-.green {
-  height: 200px;
-  width: 200px;
-  background-color: green;
-  margin: 10px 10px;
-  border: solid 10px darkgreen;
-}
-
 .trafikljus2 {
-  display: flexbox;
   flex-direction: column;
   background-color: black;
   margin-left: 100px;
 }
-
-.red2 {
+.red {
   display: flex;
   align-items: end;
   height: 200px;
@@ -50,14 +21,7 @@
   margin: 10px 10px;
   border: solid 10px darkred;
 }
-
-.lightred {
-  background-color: lightcoral;
-  height: 100px;
-  width: 200px;
-}
-
-.yellow2 {
+.yellow {
   display: flex;
   justify-content: end;
   align-items: end;
@@ -67,14 +31,7 @@
   margin: 0px 10px;
   border: solid 10px darkgoldenrod;
 }
-
-.lightyellow {
-  background-color: lightgoldenrodyellow;
-  height: 100px;
-  width: 100px;
-}
-
-.green2 {
+.green {
   display: flex;
   align-items: end;
   height: 200px;
@@ -83,7 +40,16 @@
   margin: 10px 10px;
   border: solid 10px darkgreen;
 }
-
+.lightred {
+  background-color: lightcoral;
+  height: 100px;
+  width: 200px;
+}
+.lightyellow {
+  background-color: lightgoldenrodyellow;
+  height: 100px;
+  width: 100px;
+}
 .lightgreen {
   background-color: lightgreen;
   height: 100px;
