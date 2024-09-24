@@ -1,7 +1,7 @@
 .position {
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 .trafikljus1 {
   flex-direction: column;
@@ -17,8 +17,8 @@
   align-items: end;
   height: 200px;
   width: 200px;
+  margin: 10px;
   background-color: red;
-  margin: 10px 10px;
   border: solid 10px darkred;
 }
 .yellow {
@@ -27,8 +27,8 @@
   align-items: end;
   height: 200px;
   width: 200px;
-  background-color: yellow;
   margin: 0px 10px;
+  background-color: yellow;
   border: solid 10px darkgoldenrod;
 }
 .green {
@@ -36,8 +36,8 @@
   align-items: end;
   height: 200px;
   width: 200px;
+  margin: 10px;
   background-color: green;
-  margin: 10px 10px;
   border: solid 10px darkgreen;
 }
 .lightred {
